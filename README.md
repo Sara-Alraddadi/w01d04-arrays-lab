@@ -7,11 +7,14 @@ Create a  file named `practice.js` to save your solutions.
 1. Using `push` and `unshift`, make this array contain the numbers from zero through seven:
 
 ```js
+// Solution
 const arr = [2, 3, 4];
 
 // your code here
+arr.unshift(0, 1);
+arr.push(5, 6, 7);
 
-arr; // => [0, 1, 2, 3, 4, 5, 6, 7]
+console.log(arr); // => [0, 1, 2, 3, 4, 5, 6, 7]
 ```
 
 2. What is *returned* by `push`? Before throwing this into the console, form a hypothesis about what you think the return value will be:
